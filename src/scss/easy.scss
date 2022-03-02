@@ -1,0 +1,20 @@
+.easy{
+    &__descr{
+        margin-top: 178px;
+    }
+
+    &__text{
+        margin-top: 52px;
+        line-height: 26px;
+        width: 468px;
+
+        span{
+            padding-right: 5px;
+        }
+    }
+
+    &__img{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+}

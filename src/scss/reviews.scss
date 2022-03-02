@@ -1,0 +1,89 @@
+.reviews{
+    background: url(../images/reviews-bg.jpg) center center no-repeat;
+    padding-bottom: 120px;
+    &__subtitle{
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    &__title{
+        text-align: center;
+        color: #ffffff;
+        margin-top: 2px;
+    }
+
+    &__slider{
+        margin-top: 110px;
+    }
+
+    .slick-initialized .slick-slide{
+        display: flex;
+    }
+
+    &__item{
+        width: 100%;
+    }
+
+    &__text{
+        width: 550px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;
+        color: #ffffff;
+        font-style: italic;
+        width: 600px;
+    }
+
+    &__people{
+        display: flex;
+        align-items: center;
+        margin-top: 23px;
+    }
+
+    &__bio{
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+    }
+
+    &__name{
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+
+    &__profession{
+        font-size: 14px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: 0px;
+    }
+
+    .slick-dots li button:before{
+        font-size: 6px;
+        text-shadow: 
+		-0   -1px 0   rgba( 255, 255, 255, 0.2 ),
+		 0   -1px 0   rgba( 255, 255, 255, 0.2 ),
+		-0    1px 0   rgba( 255, 255, 255, 0.2 ),
+		 0    1px 0   rgba( 255, 255, 255, 0.2 ),
+		-1px -0   0   rgba( 255, 255, 255, 0.2 ),
+		 1px -0   0   rgba( 255, 255, 255, 0.2 ),
+		-1px  0   0   rgba( 255, 255, 255, 0.2 ),
+		 1px  0   0   rgba( 255, 255, 255, 0.2 ),
+		-1px -1px 0   rgba( 255, 255, 255, 0.2 ),
+		 1px -1px 0   rgba( 255, 255, 255, 0.2 ),
+		-1px  1px 0   rgba( 255, 255, 255, 0.2 ),
+		 1px  1px 0   rgba( 255, 255, 255, 0.2 ),
+		-1px -1px 0   rgba( 255, 255, 255, 0.2 ),
+		 1px -1px 0   rgba( 255, 255, 255, 0.2 ),
+		-1px  1px 0   rgba( 255, 255, 255, 0.2 ),
+		 1px  1px 0   rgba( 255, 255, 255, 0.2 );
+        margin-top: 68px;
+    }
+
+    .slick-dots li.slick-active button:before{
+        font-size: 14px;
+        color: #fff;
+    }
+}

@@ -1,0 +1,74 @@
+.price{
+    &__subtitle{
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    &__title{
+        text-align: center;
+    }
+
+    &__plans{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+
+    &__plan{
+        border: 1px solid #e0e0e0;
+    }
+
+    &__name{
+        height: 72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #1a1a1a;
+        text-align: center;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    &__money{
+        height: 152px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #e0e0e0;
+        font-size: 48px;
+        font-weight: 600;
+        color: #1a1a1a;
+        span{
+            font-size: 18px;
+            font-weight: 400;
+            color: #999999;
+        }
+    }
+
+    &__order{
+        height: 272px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text{
+        text-align: center;
+
+        span{
+            color: $blue;
+        }
+    }
+
+    &__btn{
+        margin-top: 43px;
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        color: $blue;
+    }
+}

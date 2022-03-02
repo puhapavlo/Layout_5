@@ -1,0 +1,31 @@
+.footer{
+    height: 160px;
+    background-color: #15141a;
+    display: flex;
+    align-items: center;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__icon{
+        font-size: 18px;
+        color: rgba($color: #fff, $alpha: 0.2);
+    }
+
+    &__link{
+        &:not(:last-child){
+            margin-right: 32px;
+        }
+    }
+
+    &__copyright{
+        margin-top: 33px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #444348;
+    }
+}

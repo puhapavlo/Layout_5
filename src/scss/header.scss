@@ -10,6 +10,7 @@
     &__items{
         list-style-type: none;
         display: flex;
+        justify-content: flex-end;
     }
 
     &__link{
@@ -20,7 +21,7 @@
 
     &__item{
         &:not(:last-child){
-            margin-right: 23px;
+            margin-right: 24px;
         }
     }
 

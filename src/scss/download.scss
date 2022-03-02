@@ -1,0 +1,34 @@
+.download{
+    height: 170px;
+    background-color: $black;
+    display: flex;
+    align-items: center;
+
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title{
+        font-size: 35px;
+        font-weight: 600;
+        color: #ffffff;
+        span{
+            font-weight: 300;
+        }
+    }
+
+    &__btns{
+        display: flex;
+        align-items: center;
+
+        .header__btn{
+            margin-left: 0px;
+        }
+
+        .button{
+            margin-right: 20px;
+        }
+    }
+}

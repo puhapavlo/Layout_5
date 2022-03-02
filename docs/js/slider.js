@@ -1,0 +1,1 @@
+$(".reviews__slider").slick({infinite:!0,fade:!0,dots:!0,centerMode:!0,arrows:!1});

@@ -1,0 +1,56 @@
+.beautiful{
+
+    &__img{
+        margin-top: 30px;
+        padding-left: 20px;
+    }
+
+    &__descr{
+        margin-top: 111px;
+    }
+
+    &__text{
+        width: 470px;
+        margin-top: 50px;
+
+        span{
+            padding-right: 5px;
+        }
+    }
+
+    &__advantages{
+        margin-top: 26px;
+    }
+
+    &__advantage{
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: none;
+        letter-spacing: normal;
+        color: #1b1b1b;
+    }
+
+    &__icon{
+        padding-right: 8px;
+
+        &[alt = "mouse"]{
+            padding-left: 2px;
+            padding-right: 12px;
+        }
+
+        &[alt = "energy"]{
+            padding-left: 2px;
+            padding-right: 11px;
+        }
+        
+    }
+
+    &__item{
+        &:not(:first-child){
+            margin-top: 9px;
+        }
+
+        display: flex;
+        align-items: center;
+    }
+}
