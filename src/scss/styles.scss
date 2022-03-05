@@ -1,5 +1,6 @@
 //development styles
 @import 'variables.scss';
+@import 'mixins.scss';
 
 //global styles
 @import 'global.scss';
@@ -8,6 +9,7 @@
 @import 'button.scss';
 @import 'text.scss';
 @import 'title.scss';
+@import 'line.scss';
 
 //main styles
 @import 'header.scss';
@@ -19,3 +21,7 @@
 @import 'price.scss';
 @import 'contacts.scss';
 @import 'footer.scss';
+
+//adaptive styles
+//@import 'burger.scss';
+@import 'media.scss';

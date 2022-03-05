@@ -1,0 +1,10 @@
+.line{
+    display: flex;
+    justify-content: space-between;
+    width: 42px;
+    &__sub{
+        width: calc(50% - 1px);
+        height: 2px;
+        background-color: #008ed6;
+    }
+}

@@ -1,8 +1,21 @@
 .beautiful{
 
+    &__row{
+        margin-bottom: 20px;
+    }
+
     &__img{
-        margin-top: 30px;
+        margin-top: 61px;
         padding-left: 20px;
+    }
+
+    &__title{
+        margin-top: 10px;
+    }
+
+    &__line{
+        margin-right: auto;
+        margin-top: 26px;
     }
 
     &__descr{
@@ -11,7 +24,8 @@
 
     &__text{
         width: 470px;
-        margin-top: 50px;
+        margin-top: 25px;
+        line-height: 26px;
 
         span{
             padding-right: 5px;
@@ -19,7 +33,7 @@
     }
 
     &__advantages{
-        margin-top: 26px;
+        margin-top: 30px;
     }
 
     &__advantage{
@@ -31,16 +45,16 @@
     }
 
     &__icon{
-        padding-right: 8px;
+        padding-right: 9px;
 
         &[alt = "mouse"]{
             padding-left: 2px;
-            padding-right: 12px;
+            padding-right: 13px;
         }
 
         &[alt = "energy"]{
             padding-left: 2px;
-            padding-right: 11px;
+            padding-right: 12px;
         }
         
     }

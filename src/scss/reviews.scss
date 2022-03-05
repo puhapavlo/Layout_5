@@ -1,9 +1,10 @@
 .reviews{
     background: url(../images/reviews-bg.jpg) center center no-repeat;
+    background-size: cover;
     padding-bottom: 120px;
     &__subtitle{
         text-align: center;
-        margin-top: 90px;
+        margin-top: 60px;
     }
 
     &__title{
@@ -12,8 +13,13 @@
         margin-top: 2px;
     }
 
+    &__line{
+        margin: 0 auto;
+        margin-top: 21px;
+    }
+
     &__slider{
-        margin-top: 110px;
+        margin-top: 88px;
     }
 
     .slick-initialized .slick-slide{
@@ -25,19 +31,24 @@
     }
 
     &__text{
-        width: 550px;
+        width: 560px;
         font-size: 24px;
         line-height: 32px;
         font-weight: 400;
         color: #ffffff;
         font-style: italic;
-        width: 600px;
+    }
+
+    &__review{
+        &:first-child{
+            margin-right: 39px;
+        }
     }
 
     &__people{
         display: flex;
         align-items: center;
-        margin-top: 23px;
+        margin-top: 21px;
     }
 
     &__bio{
@@ -79,7 +90,7 @@
 		 1px -1px 0   rgba( 255, 255, 255, 0.2 ),
 		-1px  1px 0   rgba( 255, 255, 255, 0.2 ),
 		 1px  1px 0   rgba( 255, 255, 255, 0.2 );
-        margin-top: 68px;
+        margin-top: 69px;
     }
 
     .slick-dots li.slick-active button:before{

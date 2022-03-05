@@ -1,10 +1,16 @@
 .easy{
+    background-color: #f2f2f2;
+
     &__descr{
-        margin-top: 178px;
+        margin-top: 130px;
+    }
+
+    &__line{
+        margin-top: 28px;
     }
 
     &__text{
-        margin-top: 52px;
+        margin-top: 22px;
         line-height: 26px;
         width: 468px;
 
@@ -14,7 +20,8 @@
     }
 
     &__img{
-        margin-top: 40px;
-        margin-bottom: 30px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+        padding-right: 11px;
     }
 }

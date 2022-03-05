@@ -2,15 +2,21 @@
     background-color: #ededed;
     &__subtitle{
         text-align: center;
-        margin-top: 60px;
+        margin-top: 56px;
     }
 
     &__title{
         text-align: center;
+        margin-top: 10px;
+    }
+
+    &__line{
+        margin: 0 auto;
+        margin-top: 28px;
     }
 
     &__items{
-        margin-top: 100px;
+        margin-top: 60px;
         display: flex;
         justify-content: space-between;
     }
@@ -28,11 +34,18 @@
         line-height: 26px;
         font-weight: 400;
         color: #999999;
-        margin-top: 32px;
+        margin-top: 25px;
     }
 
     &__link{
         color: #999999;
+    }
+
+    &__icon{
+        &[alt = "message"]{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
     }
 
     .form{
@@ -42,8 +55,8 @@
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        padding: 60px 85px 40px 66px;
-        transform: translateY(60px);
+        padding: 58px 85px 40px 66px;
+        transform: translateY(54px);
 
         &__inputs{
             display: flex;
@@ -53,8 +66,8 @@
 
         &__input{
             width: 300px;
-            height: 50px;
-            padding-left: 18px;
+            height: 49px;
+            padding-left: 16px;
             background-color: rgba(0,142,214,0.0);
             border: 1px solid rgba(255,255,255,0.2);
             font-size: 14px;
@@ -63,7 +76,7 @@
             text-transform: uppercase;
             color: #ffffff;
             &:not(:last-child){
-                margin-bottom: 20px;
+                margin-bottom: 21px;
             }
         }
 
@@ -72,8 +85,8 @@
             height: 190px;
             background-color: rgba(0,142,214,0.0);
             border: 1px solid rgba(255,255,255,0.2);
-            padding-left: 18px;
-            padding-top: 20px;
+            padding-left: 19px;
+            padding-top: 14px;
             resize: none;
             font-size: 14px;
             opacity: 0.2;
@@ -85,7 +98,7 @@
         &__btn{
             border: none;
             outline: none;
-            margin-top: 21px;
+            margin-top: 14px;
             margin-left: auto;
         }
     }
