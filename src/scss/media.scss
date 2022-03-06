@@ -11,6 +11,14 @@
             max-width: 100%;
         }
     }
+
+    .price{
+        &__plan{
+            &:not(:last-child){
+                margin-right: 10px;
+            }
+        }
+    }
 }
 
 @media(max-width: 1075px){
@@ -36,6 +44,14 @@
 
         &__down{
             justify-content: center;
+        }
+
+        &__line{
+            display: none;
+        }
+
+        &__item{
+            margin-top: 20px;
         }
     }
 
@@ -104,3 +120,201 @@
         }
     }
 }
+
+@media(min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+    }
+}
+
+@media(max-width: 767px){
+    .header{
+        &__down{
+            flex-direction: column-reverse;
+        }
+
+        &__info{
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+        &__subtitle, &__title, &__text{
+            text-align: center;
+        }
+
+        &__btns{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .beautiful{
+        &__subtitle, &__title, &__text{
+            text-align: center;
+        }
+
+        &__line{
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+
+        &__advantages{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 0;
+        }
+
+        &__item:not(:first-child){
+            margin: 0;
+        }
+
+        &__item{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+
+            &:nth-child(2){
+                padding-right: 115px;
+            }
+
+            &:nth-child(3){
+                padding-right: 30px;
+            }
+
+            &:not(:first-child){
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .easy{
+        &__subtitle, &__title, &__text{
+            text-align: center;
+        }
+
+        &__line{
+            margin: 0 auto;
+            margin-top: 25px;
+        }
+
+        &__row{
+            flex-direction: column-reverse;
+        }
+    }
+
+    .reviews{
+        &__review{
+            width: 50%;
+        }
+    }
+
+    .download{
+        height: 200px;
+    }
+
+    .price{
+        &__plans{
+            margin-top: 40px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        &__plan{
+            margin-top: 30px;
+
+            &:not(:last-child){
+                    margin-right: 0px;
+            }
+        }
+    }
+
+    .contacts{
+        &__contact{
+            font-size: 17px;
+        }
+
+        .form{
+            width: 100%;
+            justify-content: center;
+
+            &__inputs{
+                width: 100%;
+            }
+
+            &__input{
+                display: block;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            &__send{
+                width: 100%;
+            }
+
+            &__message{
+                display: block;
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width: 575px){
+    .beautiful{
+        &__advantages{
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        &__item{
+            justify-content: flex-start;
+            &:nth-child(2){
+                padding-right: 0px;
+            }
+
+            &:nth-child(3){
+                padding-right: 0px;
+            }
+
+            &:not(:first-child){
+                margin-top: 0px;
+            }
+        }
+    }
+
+    .contacts{
+        &__items{
+            margin-top: 0;
+        }
+
+        &__item{
+            margin-top: 60px;
+        }
+
+        &__icon[alt = "message"] {
+            padding: 0;
+        }
+
+        .form{
+            height: 100%;
+            flex-direction: column;
+            padding: 30px;
+
+            &__message{
+                margin-top: 21px;
+            }
+        }
+    }
+
+    .download{
+        height: 100%;
+        &__btns{
+            padding-bottom: 30px;
+        }
+    }
+    
+}
+

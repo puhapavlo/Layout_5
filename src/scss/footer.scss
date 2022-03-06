@@ -29,11 +29,19 @@
 
     &__link{
         &:not(:last-child){
-            margin-right: 35px;
+            margin-right: 37px;
         }
 
         &:first-child{
-            margin-right: 28px;
+            margin-right: 31px;
+        }
+
+        &:nth-child(2){
+            margin-right: 32px;
+        }
+
+        &:nth-child(3){
+            margin-right: 34px;
         }
 
         &:last-child{

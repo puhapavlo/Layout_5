@@ -4,19 +4,26 @@
     background-size: cover;
     padding-top: 42px;
 
-    &__burger{
-        display: none;
-    }
-    
-    &__top{
-        display: flex;
-        justify-content: space-between;
-    }
-
     &__items{
         list-style-type: none;
         display: flex;
         justify-content: flex-end;
+    }
+
+    &__logo{
+        padding-bottom: 9px;
+    }
+
+    .navbar{
+        padding: 0;
+    }
+
+    .nav-link{
+        padding: 0;
+    }
+
+    .navbar-brand{
+        padding: 0;
     }
 
     &__line{
@@ -59,7 +66,7 @@
     }
 
     &__img{
-        margin-top: 36px;
+        margin-top: 51px;
         padding-right: 8px;
     }
 
@@ -74,7 +81,7 @@
     }
 
     &__info{
-        margin-top: 74px;
+        margin-top: 90px;
     }
 
     &__text{

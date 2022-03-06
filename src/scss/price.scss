@@ -1,16 +1,17 @@
 .price{
     &__subtitle{
         text-align: center;
-        margin-top: 59px;
+        margin-top: 57px;
     }
 
     &__title{
+        margin-top: 10px;
         text-align: center;
     }
 
     &__line{
         margin: 0 auto;
-        margin-top: 29px;
+        margin-top: 28px;
     }
 
     &__plans{
@@ -23,7 +24,22 @@
 
     &__plan{
         width: 272.5px;
-        border: 1px solid #e0e0e0;
+        border: 1px solid #dddddd;
+
+        &:hover{
+            .price__btn, .price__money{
+                transition: all ease-in-out 0.4s;
+                background-color: $blue;
+                color: #fff;
+            }
+
+            .price__money{
+                span{
+                    transition: all ease-in-out 0.4s;
+                    color: #fff;
+                }
+            }
+        }
     }
 
     &__name{

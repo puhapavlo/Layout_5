@@ -35,6 +35,11 @@
         font-weight: 400;
         color: #999999;
         margin-top: 25px;
+
+        a:hover{
+            color: rgb(105, 105, 105);
+            text-decoration: none;
+        }
     }
 
     &__link{
@@ -100,6 +105,10 @@
             outline: none;
             margin-top: 14px;
             margin-left: auto;
+
+            &:hover{
+                background-color: #025e8b;
+            }
         }
     }
 }
