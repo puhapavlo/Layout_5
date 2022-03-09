@@ -92,6 +92,7 @@
         &__img{
             padding-left: 0;
             margin-top: 0;
+            padding-right: 40px;
         }
 
         &__descr{
@@ -107,6 +108,12 @@
         &__btns{
             justify-content: center;
             margin-top: 20px;
+        }
+    }
+
+    .reviews{
+        &__review{
+            width: 50%;
         }
     }
 
@@ -145,6 +152,10 @@
         &__btns{
             display: flex;
             justify-content: center;
+        }
+
+        &__img{
+            padding: 0;
         }
     }
 
@@ -187,6 +198,10 @@
                 margin-top: 30px;
             }
         }
+
+        &__img{
+            padding: 0;
+        }
     }
 
     .easy{
@@ -202,11 +217,17 @@
         &__row{
             flex-direction: column-reverse;
         }
+
+        &__img{
+            padding: 0;
+        }
     }
 
     .reviews{
         &__review{
-            width: 50%;
+            &:first-child{
+                margin-right: 6px;
+            }
         }
     }
 
